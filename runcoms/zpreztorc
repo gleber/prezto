@@ -27,10 +27,16 @@ zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
   'editor' \
+  'git' \
+  'haskell' \
   'history' \
   'directory' \
+  'history-substring-search' \
+  'python' \
   'spectrum' \
   'utility' \
+  'syntax-highlighting' \
+  'tmux' \
   'completion' \
   'prompt'
 
@@ -86,6 +92,8 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'sorin'
+# zstyle ':prezto:module:prompt' theme 'agnoster'
+# zstyle ':prezto:module:prompt' theme 'random'
 
 #
 # Ruby
@@ -151,7 +159,7 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 # zstyle ':prezto:module:tmux:auto-start' local 'yes'
 
 # Auto start a session when Zsh is launched in a SSH connection.
-# zstyle ':prezto:module:tmux:auto-start' remote 'yes'
+zstyle ':prezto:module:tmux:auto-start' remote 'yes'
 
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
