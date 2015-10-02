@@ -73,5 +73,6 @@ fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
 
-
-source ~/.nix-profile/etc/profile.d/nix.sh
+if [ -f ~/.nix-profile/etc/profile.d/nix.sh ]; then
+  source ~/.nix-profile/etc/profile.d/nix.sh
+fi
