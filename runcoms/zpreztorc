@@ -28,6 +28,7 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'git' \
+  'gpg' \
   'haskell' \
   'history' \
   'directory' \
@@ -37,6 +38,7 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'syntax-highlighting' \
   'tmux' \
+  'nix-completions' \
   'completion' \
   'prompt'
 
