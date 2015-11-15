@@ -40,7 +40,8 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'nix-completions' \
   'completion' \
-  'prompt'
+  'prompt' \
+  'nix'
 
 #
 # Editor
